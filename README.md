@@ -8,8 +8,8 @@ Combines semantic chunking with a 2-stage retrieval (embed + rerank) architectur
 ### Architecture
 
 ```
-[Text Source] ──► [Semantic Chunking] ──► [Step 1: Vector Search] ──► [Step 2: Cohere Rerank] ──► [Command-R-Plus LLM]
-
+[Text Source] ──► [Semantic Chunking] ──► [Step 1: Vector Search] ──►
+[Step 2: Cohere Rerank] ──► [Command-R-Plus LLM]
 ```
 
 * Semantic Chunking: Splits text dynamically by analyzing shifts in sentence embeddings rather than using arbitrary/hardcoded character counts. I used `rerank-v3.5` to decouple initial vector similarity matching from actual semantic answering relevance, shrinking the final prompt window and lowering inference overhead.
@@ -22,14 +22,12 @@ Combines semantic chunking with a 2-stage retrieval (embed + rerank) architectur
 ```bash
 uv init
 uv add cohere numpy pypdf langchain-experimental python-dotenv
-
 ```
 
 In `.env` :
 
 ```text
 COHERE_API_KEY=key_here
-
 ```
 
 ### Usage
@@ -39,9 +37,8 @@ COHERE_API_KEY=key_here
 
 ```bash
 uv run rag.py user_guide.pdf
-
 ```
 
 ### Example Session
 
-
+<img width="1154" height="671" alt="Screenshot 2026-05-28 121708" src="https://github.com/user-attachments/assets/a1849387-abbb-45db-8eaf-3c01eebad79b" />
