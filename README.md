@@ -1,5 +1,7 @@
 # Enterprise documentation ingester & RAG pipeline
 
+## Quick and dirty build; trying to understand the performance difference between raw vector search and a vector + rerank model 
+
 A local RAG pipeline designed to ingest complex technical manuals (e.g., PDFs of large, dense design guides, developer guides, any other dense documentation...) and deliver accurate, hallucination-resistant answers.
 
 Combines semantic chunking with a 2-stage retrieval (embed + rerank) architecture. Using Cohere's latest V2 API.
