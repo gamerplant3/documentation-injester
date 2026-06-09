@@ -158,4 +158,8 @@ ASK: [or type exit to quit] exit
 ```
 ### Screenshots
 
-<img width="1154" height="671" alt="Screenshot 2026-05-28 121708" src="https://github.com/user-attachments/assets/a1849387-abbb-45db-8eaf-3c01eebad79b" />
+Temporal UI
+
+<img width="2040" height="1320" alt="screenie 1" src="https://github.com/user-attachments/assets/ae05981f-3031-4e90-9598-bf8db8c002b2" />
+
+<img width="2040" height="1320" alt="screenie 2" src="https://github.com/user-attachments/assets/1e364698-56e6-48ed-b6ee-3d99ec50ac09" />
