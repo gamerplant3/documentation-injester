@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Persisted RAG indexes and ingest work artifacts
+storage/
